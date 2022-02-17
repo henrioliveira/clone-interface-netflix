@@ -13,6 +13,7 @@
 body{
     font-family: Arial, helvetica, sans-serif;
     background-color: var(--preta);
+    color: white;
 }
 
 #head-container {
@@ -20,8 +21,9 @@ body{
     height: 10vh;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    position: fixed;
 }
-
 
 #head-container img {
     display: flex;
@@ -54,7 +56,7 @@ body{
     float: right;
     display: inline-flex;
     align-items: center;
-    width: 25%;
+    width: 20%;
     height: inherit;
     margin-left: 30%;
     color: white;
@@ -67,7 +69,7 @@ body{
 }
 
 #right i{
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .fa-user{
@@ -76,4 +78,28 @@ body{
 
 .fa-bell{
     margin-left: 10%;
+}
+
+/*Banner*/
+#banner{
+    height: 75vh;
+    width: 100%;
+    background-image:
+    linear-gradient(0deg, rgba(20,20,20,1) 7%, rgba(20,20,20,0.6951155462184874) 49%, rgba(121,119,119,0) 100%),
+    url('/img/duna-banner.jpg');
+    background-size: cover;
+}
+
+
+#banner img {
+    width: 45vw;
+    margin-left: 5px;
+}
+
+#banner p {
+    margin-left: 10px;
+    font-size: 19px;
+    width:40vw;
+    text-align: justify;
+    background: transparent;
 }
