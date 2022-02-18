@@ -83,7 +83,7 @@ body{
 }
 
 #main {
-    position: relative;
+    position: absolute;
 }
 
 
@@ -111,28 +111,48 @@ body{
     background: transparent;
 }
 
-#main-content{
+/* carrousels */
+.carousel1{
  float: left;
  position: absolute;
  top: 400px;
  margin-left: 10px;
+ margin-bottom: 100px;
 }
+
+.carousel1 h3{
+    position: relative;
+    bottom: 20px;
+}
+
+.carousel2{
+    float: left;
+    position: absolute;
+    top: 400px;
+    margin-left: 10px;
+    margin-top: 350px;
+   }
+   
+   .carousel2 h3{
+       position: relative;
+       bottom: 20px;
+   }
 
 .categories{
     height: 35vh;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .content{
-    height: 30vh;
+    height: 40vh;
     margin-left: 10px;
 }
 
 .content img {
-    height: 30vh;
+    height: 45vh;
 }
 
 .detailing {
