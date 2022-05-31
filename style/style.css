@@ -111,20 +111,12 @@ body{
     background: transparent;
 }
 
-/* carrousels */
-.carousel1{
- float: left;
- position: absolute;
- top: 400px;
- margin-left: 10px;
- margin-bottom: 100px;
+/* categories */
+h2 {
+    position: absolute;
+    background: rgb(20,20,20);
+    background: linear-gradient(0deg, rgba(20,20,20,1) 0%, rgba(20,20,20,0.2805497198879552) 60%);
 }
-
-.carousel1 h3{
-    position: relative;
-    bottom: 20px;
-}
-
 .categories{
     height: 35vh;
     width: 100%;
@@ -133,71 +125,21 @@ body{
     justify-content: space-evenly;
 }
 
-#film1 {
+.film {
     height: 40vh;
     margin-left: 10px;
 }
 
-#film2 {
+.film-cover {
     height: 40vh;
     margin-left: 10px;
 }
 
-#film3 {
-    height: 40vh;
-    margin-left: 10px;
-}
-
- #film4 {
-    height: 40vh;
-    margin-left: 10px;
-}
-
-#film5 {
-    height: 40vh;
-    margin-left: 10px;
-}
-
- #film6 {
-    height: 40vh;
-    margin-left: 10px;
-}
-
-#film1 img {
-    height: 35vh;
-    margin-left: 10px;
-}
-
-#film2 img {
-    height: 35vh;
-    margin-left: 10px;
-}
-
-#film3 img {
-    height: 35vh;
-    margin-left: 10px;
-}
-
- #film4 img {
-    height: 35vh;
-    margin-left: 10px;
-}
-
-#film5 img {
-    height: 35vh;
-    margin-left: 10px;
-}
-
- #film6 img {
-    height: 35vh;
-    margin-left: 10px;
-}
-
-#film2-logo{
+.film-logo{
     display: none;
 }
 
-#film2-banner{
+.film-banner{
     display: none;
 }
 

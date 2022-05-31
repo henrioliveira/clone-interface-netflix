@@ -1,25 +1,31 @@
+let films =[];
+let covers = [];
+let banners = [];
+let logos = [];
 let banner = document.getElementById('banner');
-let logo = document.getElementById('film-logo');
-let covers = [document.getElementById('film1-cover'),
-document.getElementById('film2-cover'),
-document.getElementById('film3-cover'),
-document.getElementById('film4-cover'),
-document.getElementById('film5-cover'),
-document.getElementById('film6-cover')];
-let films = [document.getElementById('film1'),
-document.getElementById('film2'),
-document.getElementById('film3'),
-document.getElementById('film4'),
-document.getElementById('film5'),
-document.getElementById('film6'),]
+let logo = document.getElementById('banner-logo');
 
-
-
-function changeLogo() {
-
-    banner = document.getElementById('film2-banner')
+function pushClass(arr, className){
+    arr.push(document.getElementsByClassName(className))
+    return arr
 };
+function changeLogo(path){
+    logo.setAttribute('src', path)
+    return path
+};
+function getSrc(arr){
+    for (let i=0 ; i > arr.length; i++){
+        arr[0][i].getAttribute('src')
+    }
+    return
+};
+function eventLogo(over){
+    for (let i = 0; i>over.length; i++){
+        over[0][i].addEventListner(mouseover, changeLogo(getSrc(covers)))
+    }
+}
 
-films.addEventListener(MouseEvent(mouseover), changeLogo())
-
-
+pushClass(films, 'film');
+pushClass(covers, 'film-cover');
+pushClass(banners, 'film-banner')
+pushClass(logos, 'film-logo')
