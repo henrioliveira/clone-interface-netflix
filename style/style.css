@@ -125,23 +125,42 @@ h2 {
     justify-content: space-evenly;
 }
 
-.film {
+#film1 {
     height: 40vh;
     margin-left: 10px;
 }
 
-.film-cover {
+#film1-cover {
     height: 40vh;
     margin-left: 10px;
 }
 
-.film-logo{
+#film1-logo{
     display: none;
 }
 
-.film-banner{
+#film1-banner{
     display: none;
 }
+
+#film2 {
+    height: 40vh;
+    margin-left: 10px;
+}
+
+#film2-cover {
+    height: 40vh;
+    margin-left: 10px;
+}
+
+#film2-logo{
+    display: none;
+}
+
+#film2-banner{
+    display: none;
+}
+
 
 .detailing {
     background-color: var(--preta);
