@@ -160,6 +160,54 @@ h2 {
 #film2-banner{
     display: none;
 }
+#film3-cover {
+    height: 40vh;
+    margin-left: 10px;
+}
+
+#film3-logo{
+    display: none;
+}
+
+#film3-banner{
+    display: none;
+}
+#film4-cover {
+    height: 40vh;
+    margin-left: 10px;
+}
+
+#film4-logo{
+    display: none;
+}
+
+#film4-banner{
+    display: none;
+}
+#film5-cover {
+    height: 40vh;
+    margin-left: 10px;
+}
+
+#film5-logo{
+    display: none;
+}
+
+#film5-banner{
+    display: none;
+}
+#film6-cover {
+    height: 40vh;
+    margin-left: 10px;
+}
+
+#film6-logo{
+    display: none;
+}
+
+#film6-banner{
+    display: none;
+}
 
 
 .detailing {
